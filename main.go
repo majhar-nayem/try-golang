@@ -9,8 +9,8 @@ import (
 )
 
 func init(){
-	app.ConnectDB()
 	app.LoadEnv()
+	app.ConnectDB()
 }
 
 func main(){
